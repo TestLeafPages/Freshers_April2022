@@ -11,6 +11,7 @@ public static void main(String[] args) {
 		if(input%i==0) {
 			flag=true;
 			System.out.println("not prime");
+			break;
 		}
 	}
 	if(!flag) {
