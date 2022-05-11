@@ -1,0 +1,78 @@
+Selenium 
+
+Locators:
+id          (Don't use:if id has number and keep changing)
+name        (Don't use:if there are multiple names)
+className   (Don't use:if it has white spaces or multiple matches)
+linkText    (Use it:when the tag is a and text is unique)
+tagName     (use when it is unique else not)
+partialLinkText
+cssSelector
+Xpath
+
+Browser interactions:
+get()
+close()
+getTitle()
+getStringUrl()
+
+Element interactions;
+sendKeys()
+clear()
+click()
+getText()
+getrAttribute()
+
+navigations Command:
+driver.navigate().to();
+driver.navigate.forward();
+driver.navigate.backward();
+driver.navigate.refresh();
+Xpath:
+1.Absolute Xpath
+
+Starting from root node
+/html/body/div[2]/div[2]/div/form/p/input
+
+2.Relative Xpath
+
+1.Attribute based xpath:
+//tagname[@Attribute='Attribute value']
+//input[@id='username']
+Contains
+//div[contains(@class,'x-grid3-col-partyId')]
+
+2.text based xpath
+//tagname[text()='ttext value']
+//div[text()='Fashion']
+
+//a[contains(text(),'CRM/SFA')]
+
+index based xpath:
+(//div[@class='x-grid3-cell-inner x-grid3-col-partyId'])[4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
