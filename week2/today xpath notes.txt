@@ -1,0 +1,107 @@
+
+Selenium can automate only browser based application
+ locators:
+1.id
+2.name
+3.className
+4,linkText
+5.partialLinkText
+6.sccSelector
+7.xpath
+
+<span class="test leaf in chennai"  size="50">
+
+xpath:
+1.Absolute xpath
+Start from root node 
+start with single/
+
+2.Relative xpath:
+
+start with //
+
+Attribute based xpath
+text based xpath
+index based xpath
+
+Advanced Xpath /Axes xpath
+Parent to child
+parent xpath/child tagname
+//p[@class='top']/input
+parent xpath/child xpath
+//p[@class='top']/input[@id='username']
+
+child to parent
+child xpath/parent:: tagname
+//input[@id='username']/parent::p
+or
+//input[@id='username']/..
+
+Grandparent to grandchild:
+Grandparent xpath//grandchild Tagname
+//form[@id='login']//input
+Grandparent xpath//grandchild xpath
+//form[@id='login']//input[@id='username']
+
+GrandChild toGrandParent
+Grandchildxpath /../..
+//input[@id='username']/../..
+grandchild xpath//ancestor::tag name of grandParent
+//input[@id='username']//ancestor::form
+
+
+Elder sibling to younger sibling
+elder sibling xpath/following-sibling::younger sibling  tagname or xpath
+//label[text()='Username']/following-sibling::input
+
+younger sibling to elder sibling
+younger xpath/preceding-sibling::tagname of elder or xpath
+//input[@id='password']/preceding-sibling::label
+
+elder cousin to younger cousin:
+elser cousin xpath//following::tagname of younger cousin
+(//label[text()='Username']//following::input)[2]
+
+younger cousin to elder cousin
+
+younger cousin xpath//preceding elder cousin tagname or xpath
+//input[@id='password']//preceding::label
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
