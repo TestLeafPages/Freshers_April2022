@@ -14,7 +14,7 @@ public class Ajio {
 public static void main(String[] args) {
 	WebDriverManager.chromedriver().setup();
 	ChromeOptions options=new ChromeOptions();
-	options.addArguments("--disable-notifications-");
+	options.addArguments("--disable-notifications");
 	//options.setHeadless(true);
 	ChromeDriver driver=new ChromeDriver(options);
 	driver.get("https://www.ajio.com/");
